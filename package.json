@@ -1,0 +1,17 @@
+{
+  "name": "cloudflare-telegram-bot",
+  "version": "1.0.0",
+  "description": "Bot Telegram untuk manajemen Cloudflare Worker dan KV",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "keywords": ["cloudflare", "telegram", "bot", "worker", "kv"],
+  "author": "YourName",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "dotenv": "^16.3.1",
+    "node-telegram-bot-api": "^0.61.0"
+  }
+}
